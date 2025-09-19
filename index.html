@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="styles.css">
+<title>Calculadora de Vendas Ultra</title>
+</head>
+<body>
+<div class="container">
+  <h1>Calculadora de Vendas</h1>
+
+  <input type="text" id="produto" placeholder="Nome do produto">
+  <input type="number" id="custo" placeholder="Custo do produto">
+  <input type="number" id="margem" placeholder="Margem de lucro (%)">
+  <input type="number" id="imposto" placeholder="Imposto (%)">
+  <input type="number" id="frete" placeholder="Frete (R$)">
+  <input type="number" id="desconto" placeholder="Desconto (%)">
+  <button id="calcular">Calcular Preço Final</button>
+
+  <div id="resultado"></div>
+
+  <h2>Produtos Salvos</h2>
+  <ul id="produtos-salvos"></ul>
+
+  <button id="desbloquear">Desbloquear Premium</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
